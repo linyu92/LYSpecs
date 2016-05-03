@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  # s.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => 'LYLeaksDebug=1' }
+  s.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => 'LYListViewControllers=0' }
 
   s.subspec 'no-arc' do |sna|
     sna.requires_arc = false
